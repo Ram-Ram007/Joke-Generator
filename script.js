@@ -7,6 +7,7 @@ getJoke();
 
 async function getJoke() {
   const res = await fetch(API_URL);
+  const data = await res.json();
 
   jokeContainer.innerHTML = data.joke;
 }
