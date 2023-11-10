@@ -5,3 +5,10 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    src: url("font/sans.ttf");
+    font-family: "sans";
+  }
+  
+
+
