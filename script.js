@@ -4,6 +4,7 @@ const getJokeBtn = document.getElementById("getJokeBtn");
 const API_URL = `https://v2.jokeapi.dev/joke/Any?type=single`;
 
 getJoke();
+// api call
 
 async function getJoke() {
   const res = await fetch(API_URL);
