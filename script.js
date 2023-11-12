@@ -1,6 +1,7 @@
 const jokeContainer = document.getElementById("jokeContainer");
 const getJokeBtn = document.getElementById("getJokeBtn");
 
+// Getting jokes from this website 
 const API_URL = `https://v2.jokeapi.dev/joke/Any?type=single`;
 
 getJoke();
